@@ -1,5 +1,5 @@
 "this is python code"
 
-a = 12
-b = 14
-print(a+b)
+a = int(input("Enter the num1: "))
+b = int(input("Enter the num2: "))
+print(f"Sum of {a} and {b} is {a+b}")
